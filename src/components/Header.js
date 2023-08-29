@@ -15,7 +15,7 @@ const Header = () => (
                                 <img
                                     className="block h-10 md:h-16 w-auto"
                                     src={Logo}
-                                    alt="Planty"
+                                    alt="Spazio"
                                     width={157.7}
                                     height={63}
                                 />
@@ -25,14 +25,14 @@ const Header = () => (
                                     to="/products/"
                                     className="inline-flex items-center px-1 pt-1 text-xl font-medium text-secondary"
                                 >
-                                    Store
+                                    Tienda
                                 </Link>
                                 <Link
                                     to="/"
                                     className="hover:text-secondary inline-flex items-center
                                     px-1 pt-1 text-xl font-light"
                                 >
-                                    About
+                                    Nosotros
                                 </Link>
                                 <Link
                                     to="/"
@@ -58,7 +58,7 @@ const Header = () => (
                             <Disclosure.Button
                                 className="inline-flex items-center justify-center p-2 text-secondary"
                             >
-                                <span className="sr-only">Open main menu</span>
+                                <span className="sr-only">Menu Principal</span>
                                 {open ? (
                                     <XIcon className="block h-6 w-6" aria-hidden="true" />
                                 ) : (
@@ -77,7 +77,7 @@ const Header = () => (
                             className="border-secondary text-primary
                             block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                         >
-                            Store
+                            Tienda
                         </Disclosure.Button>
                         <Disclosure.Button
                             as="a"
@@ -85,7 +85,7 @@ const Header = () => (
                             className="border-transparent text-primary hover:border-secondary
                             block pl-3 pr-4 py-2 border-l-4 text-base font-light"
                         >
-                            About
+                            Nosotros
                         </Disclosure.Button>
                         <Disclosure.Button
                             as="a"
@@ -100,7 +100,7 @@ const Header = () => (
                             className="ml-2 bg-white p-1 rounded-full text-secondary hover:text-gray focus:outline-none
                                 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 snipcart-checkout"
                         >
-                            <span className="sr-only">View notifications</span>
+                            <span className="sr-only">Notificaciones</span>
                             <ShoppingBagIcon className="h-6 w-6" aria-hidden="true" />
                         </button>
                     </div>

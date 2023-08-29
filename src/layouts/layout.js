@@ -13,14 +13,14 @@ const Layout = ({ children, additionalClass = [] }) => (
         {children}
         <Contact
             additionalClass={['my-5']}
-            formHeaderText="Connect with us"
-            nameInputLabel="Name"
-            emailInputLabel="Email"
-            messageInputLabel="Message"
-            buttonLabel="Send"
-            phoneNumber="+123 456 789"
-            address="Demo Street"
-            emailAddress="hello@world.com"
+            formHeaderText="Cuentanos "
+            nameInputLabel="Nombre"
+            emailInputLabel="E-mail"
+            messageInputLabel="Mensaje"
+            buttonLabel="Enviar"
+            phoneNumber="+502 4562 5974"
+            address="Guatemala Ciudad"
+            emailAddress="exteriorspazio@gmail.com"
         />
         <Footer />
     </main>

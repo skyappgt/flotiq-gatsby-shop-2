@@ -26,7 +26,7 @@ const socialIcons = {
     social: [
         {
             name: 'Facebook',
-            href: 'https://www.facebook.com/flotiq',
+            href: 'https://www.facebook.com/spazioexterior',
             icon: (props) => (
                 <svg fill="currentColor" viewBox="0 0 13 25" {...props}>
                     <path
@@ -42,7 +42,7 @@ const socialIcons = {
         },
         {
             name: 'Instagram',
-            href: '#',
+            href: 'https://instagram.com/spazioexterior',
             icon: (props) => (
                 <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
                     <path
@@ -92,16 +92,16 @@ const Contact = ({
             <div className="basis-full lg:basis-1/2 flex flex-col items-start
         justify-between order-2 lg:order-1 md:mt-10 lg:mt-0"
             >
-                <StaticImage
+                {/* <StaticImage
                     src="../assets/planty-logo.svg"
                     className={['hidden md:block h-10 md:h-16 w-auto']}
                     alt="Planty logo"
                     width={160}
                     height={64}
                     placeholder="none"
-                />
+                /> */}
                 <div className="w-full md:w-auto flex justify-center mt-10 lg:mt-0">
-                    <div className="hidden md:block flex flex-col space-y-1">
+                    <div className="hidden inline md:block flex flex-col space-y-1">
                         {socialIcons.social.map((item) => (
                             <a className="flex items-center space-x-7" key={item.name} href={item.href}>
                                 <span
@@ -114,7 +114,7 @@ const Contact = ({
                             </a>
                         ))}
                     </div>
-                    <div className="flex flex-col space-y-1 md:pl-24">
+                    <div className="flex flex-col space-y-1 md:pl-12">
                         <p className="h-10 p-1 text-xl font-light">
                             Phone:
                             <a href="/" className="font-normal ml-5">
@@ -137,7 +137,7 @@ const Contact = ({
                     <StaticImage
                         src="../assets/planty-logo.svg"
                         className={['h-10 md:h-16 w-auto']}
-                        alt="Planty logo"
+                        alt="Spazio"
                         width={100}
                         height={40}
                         placeholder="none"
